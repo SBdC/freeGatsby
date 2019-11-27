@@ -4,7 +4,12 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Welcome to Gatsby",
+    author: "soul"
+  },
   plugins: [`gatsby-plugin-sass`]
 }
